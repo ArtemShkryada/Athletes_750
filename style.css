@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  background: linear-gradient(180deg, rgba(255, 165, 241, 1) 0%,
+  rgba(107, 193, 255, 1) 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 750px;
+    height: 1500px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    max-width: 320px;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+li.athlet{
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+color: #2F4F4F;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+justify-content: space-around;
+align-content: center;
+z-index: 1;
+}
+
+.athlet:nth-of-type(1){
+  margin: 215px 0 0 -45px;
+}
+.athlet:nth-of-type(2){
+  margin: 215px -20px 0 0;
+}
+.athlet:nth-of-type(3){
+  margin: 260px 0 0 -45px;
+}
+.athlet:nth-of-type(4){
+  margin: 260px -40px 0 55px;
+}
+.athlet:nth-of-type(5){
+  margin: 260px 0 0 0;
+}
+.athlet:nth-of-type(6){
+  margin: 260px -30px 0 70px;
+}
+.athlet:nth-of-type(7){
+  margin: 260px 50px 0 -25px;
+}
+.athlet:nth-of-type(8){
+  margin: 260px -25px 0 50px;
+}
+.athlet:nth-of-type(9){
+  margin: 260px 5px 0 -15px;
+}
+.athlet:nth-of-type(10){
+  margin: 260px -40px 0 25px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 0 71px 0;
+    justify-content: space-around;
+    max-width: 500px;
+  }
